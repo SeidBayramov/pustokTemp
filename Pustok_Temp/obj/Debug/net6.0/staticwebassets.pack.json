@@ -1,6 +1,26 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\II novbe\\Desktop\\FStemp\\Pustok_Temp\\wwwroot\\Upload\\BookImage\\0563fec8-35f0-4a47-8a57-f3428b9c61d9thumb-1920-1024992.jpg",
+      "PackagePath": "staticwebassets\\Upload\\BookImage\\0563fec8-35f0-4a47-8a57-f3428b9c61d9thumb-1920-1024992.jpg"
+    },
+    {
+      "Id": "C:\\Users\\II novbe\\Desktop\\FStemp\\Pustok_Temp\\wwwroot\\Upload\\BookImage\\38acc7e1-729d-488a-8eb8-192efff423243145765.png",
+      "PackagePath": "staticwebassets\\Upload\\BookImage\\38acc7e1-729d-488a-8eb8-192efff423243145765.png"
+    },
+    {
+      "Id": "C:\\Users\\II novbe\\Desktop\\FStemp\\Pustok_Temp\\wwwroot\\Upload\\BookImage\\7947f86d-a557-43b1-8cc6-c0f480ee35ba3145765.png",
+      "PackagePath": "staticwebassets\\Upload\\BookImage\\7947f86d-a557-43b1-8cc6-c0f480ee35ba3145765.png"
+    },
+    {
+      "Id": "C:\\Users\\II novbe\\Desktop\\FStemp\\Pustok_Temp\\wwwroot\\Upload\\BookImage\\b5a4eeaf-f371-4246-b7fa-42f26f7b2894thumb-1920-1024992.jpg",
+      "PackagePath": "staticwebassets\\Upload\\BookImage\\b5a4eeaf-f371-4246-b7fa-42f26f7b2894thumb-1920-1024992.jpg"
+    },
+    {
+      "Id": "C:\\Users\\II novbe\\Desktop\\FStemp\\Pustok_Temp\\wwwroot\\Upload\\BookImage\\e26fadc9-7f2b-401d-bfc1-5b9cfdae0a4athumb-1920-1024992.jpg",
+      "PackagePath": "staticwebassets\\Upload\\BookImage\\e26fadc9-7f2b-401d-bfc1-5b9cfdae0a4athumb-1920-1024992.jpg"
+    },
+    {
       "Id": "C:\\Users\\II novbe\\Desktop\\FStemp\\Pustok_Temp\\wwwroot\\bootstrap-5.0.2\\bootstrap-5.0.2\\.babelrc.js",
       "PackagePath": "staticwebassets\\bootstrap-5.0.2\\bootstrap-5.0.2\\.babelrc.js"
     },

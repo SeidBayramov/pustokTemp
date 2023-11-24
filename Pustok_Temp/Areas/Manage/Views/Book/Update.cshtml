@@ -9,24 +9,22 @@
                 <span asp-validation-for="Title" style="color:red"></span>
             </div>
             <div class="mb-3 col-md-3">
-                <label asp-for="Price" class="form-label">SubTitle</label>
+                <label asp-for="Price" class="form-label">Price</label>
                 <input asp-for="Price" class="form-control">
                 <span asp-validation-for="Price" style="color:red"></span>
             </div>
-            <div class="mb-3 col-md-3">
-                <label asp-for="Authors.Name" class="form-label">Image File</label>
+   @*         <div class="mb-3 col-md-3">
+                <label asp-for="Authors.Name" class="form-label">Authors Name</label>
                 <input asp-for="Authors.Name" class="form-control">
                 <span asp-validation-for="Authors.Name" style="color:red"></span>
+            </div>*@
+
+            <div class="mb-3 col-md-3">
+                <label asp-for="ImageFile" class="form-label">Image File</label>
+                <input asp-for="ImageFile" class=" form-control">
+                <span asp-validation-for="ImageFile" style="color:red"></span>
             </div>
 
-        </div>
-        <div class="row">
-            <div class="mb-3 col-md-6">
-                <label asp-for="ImgUrl" class="form-label">ImgUrl</label>
-                <textarea class="form-control" asp-for="ImgUrl" rows="4"></textarea>
-            </div>
-        </div>
-
-        <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>

@@ -66,7 +66,20 @@ namespace Pustok_Temp.Areas.Manage.Controllers
             Book book = _context.books.Find(id);
             return View(book);
         }
+        public IActionResult Delete(int id)
+        {
 
+            Book book = _context.books.Find(id);
+
+            if (book != null)
+            {
+                _context.books.Remove(book);
+                _context.SaveChanges();
+
+            }
+
+            return RedirectToAction("Index");
+        }
 
 
         [HttpPost]
@@ -102,7 +115,6 @@ namespace Pustok_Temp.Areas.Manage.Controllers
 
             oldSlider.Title = newSlider.Title;
             oldSlider.Price = newSlider.Price;
-            oldSlider.Authors.Name = newSlider.Authors.Name;
             oldSlider.ImgUrl = newSlider.ImgUrl;
             _context.SaveChanges();
             return RedirectToAction("Index");
