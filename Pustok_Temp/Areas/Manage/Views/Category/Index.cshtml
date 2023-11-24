@@ -19,6 +19,8 @@
                 <th scope="col">No#</th>
                 <th scope="col">Id</th>
                 <th scope="col">Name</th>
+                <th scope="col">ParentCategorID</th>
+
             </tr>
         </thead>
         <tbody>
@@ -30,6 +32,8 @@
 
                     <td>@item.Id</td>
                     <td>@item.Name</td>
+                    <td>@item.ParentCategoryId</td>
+
                     <td>
                         <a class="btn btn-secondary" asp-controller="Category" asp-action="Update" asp-route-id="@item.Id">Update </a>
 

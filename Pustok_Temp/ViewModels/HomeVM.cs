@@ -10,5 +10,7 @@ namespace Pustok_Temp.ViewModels
         public List<Categories> categories { get; set; }
         public List<Slider> sliders {  get; set; }
 
+        public List<ParentCategory> parentcats { get; set; }
+
     }
 }

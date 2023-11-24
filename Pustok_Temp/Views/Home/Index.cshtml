@@ -18,7 +18,7 @@
                                     categories
                                 </a>
                                 <ul class="category-menu">
-                                    @* @foreach (var itemP in Model.categories.FindAll(c => c.ParentCategoryId == null))
+                                     @foreach (var itemP in Model.categories.FindAll(c => c.ParentCategoryId == null))
                                     {
 
                                         <li class="cat-item has-children">
@@ -31,8 +31,8 @@
                                                 }
                                             </ul>
                                         </li>
-                                    } *@
-                                   @*  <li class="cat-item has-children mega-menu">
+                                    } 
+                                    <li class="cat-item has-children mega-menu">
                                         <a href="#">Biographies</a>
                                         <ul class="sub-menu">
                                             <li class="single-block">
@@ -131,7 +131,7 @@
                                             More
                                             Categories
                                         </a>
-                                    </li> *@
+                                    </li> 
                                 </ul>
                             </div>
                         </nav>
@@ -633,10 +633,8 @@
                             {"breakpoint":480, "settings": {"slidesToShow": 1} },
                             {"breakpoint":320, "settings": {"slidesToShow": 1} }
                         ]'>
-
                             @foreach (var item in Model.books)
                             {
-
                                 <div class="single-slide">
                                     <div class="product-card">
                                         <div class="product-header">
@@ -651,10 +649,10 @@
                                         </div>
                                         <div class="product-card--body">
                                             <div class="card-image">
-                                                <img src="~/image/products/@item.ImgUrl" alt="">
+                                                <img src="~/Upload/image/products/@item.ImgUrl" alt="@item.Title">
                                                 <div class="hover-contents">
                                                     <a href="product-details.html" class="hover-image">
-                                                        <img src="~/image/products/@item.Bookimages" alt="">
+                                                        <img src="~/Upload/BookImage/@item.ImgUrl" alt="@item.Title">
                                                     </a>
                                                     <div class="hover-btns">
                                                         <a href="cart.html" class="single-btn">
@@ -666,8 +664,7 @@
                                                         <a href="compare.html" class="single-btn">
                                                             <i class="fas fa-random"></i>
                                                         </a>
-                                                        <a href="#" data-toggle="modal" data-target="#quickModal"
-                                                           class="single-btn">
+                                                        <a href="#" data-toggle="modal" data-target="#quickModal" class="single-btn">
                                                             <i class="fas fa-eye"></i>
                                                         </a>
                                                     </div>
@@ -675,12 +672,12 @@
                                             </div>
                                             <div class="price-block">
                                                 <span class="price">$@item.Price</span>
-
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             }
+
 
                         </div>
                     </div>

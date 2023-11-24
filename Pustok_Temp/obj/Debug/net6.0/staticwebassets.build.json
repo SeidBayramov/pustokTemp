@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yovkT/3yqoMPezMwTPZ9aWirn8ToIrHDzKGu4RO9T6c=",
+  "Hash": "JmbDkjL58QxXOp9WTmkLPtQsK8pWb+2iab4hEulkg/0=",
   "Source": "Pustok_Temp",
   "BasePath": "_content/Pustok_Temp",
   "Mode": "Default",
@@ -14654,6 +14654,40 @@
       "OriginalItemSpec": "wwwroot\\Upload\\BookImage\\0563fec8-35f0-4a47-8a57-f3428b9c61d9thumb-1920-1024992.jpg"
     },
     {
+      "Identity": "C:\\Users\\II novbe\\Desktop\\FStemp\\Pustok_Temp\\wwwroot\\Upload\\BookImage\\173d200d-be6b-4fac-bee7-a0128a364bc0thumb-1920-1024992.jpg",
+      "SourceId": "Pustok_Temp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\FStemp\\Pustok_Temp\\wwwroot\\",
+      "BasePath": "_content/Pustok_Temp",
+      "RelativePath": "Upload/BookImage/173d200d-be6b-4fac-bee7-a0128a364bc0thumb-1920-1024992.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\BookImage\\173d200d-be6b-4fac-bee7-a0128a364bc0thumb-1920-1024992.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\II novbe\\Desktop\\FStemp\\Pustok_Temp\\wwwroot\\Upload\\BookImage\\25383a76-6414-4353-88a5-01e62db34394thumb-1920-1024992.jpg",
+      "SourceId": "Pustok_Temp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\FStemp\\Pustok_Temp\\wwwroot\\",
+      "BasePath": "_content/Pustok_Temp",
+      "RelativePath": "Upload/BookImage/25383a76-6414-4353-88a5-01e62db34394thumb-1920-1024992.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\BookImage\\25383a76-6414-4353-88a5-01e62db34394thumb-1920-1024992.jpg"
+    },
+    {
       "Identity": "C:\\Users\\II novbe\\Desktop\\FStemp\\Pustok_Temp\\wwwroot\\Upload\\BookImage\\38acc7e1-729d-488a-8eb8-192efff423243145765.png",
       "SourceId": "Pustok_Temp",
       "SourceType": "Discovered",
@@ -14669,6 +14703,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Upload\\BookImage\\38acc7e1-729d-488a-8eb8-192efff423243145765.png"
+    },
+    {
+      "Identity": "C:\\Users\\II novbe\\Desktop\\FStemp\\Pustok_Temp\\wwwroot\\Upload\\BookImage\\71676911-fa11-4def-8d5a-bc4982f721b33145765.png",
+      "SourceId": "Pustok_Temp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\FStemp\\Pustok_Temp\\wwwroot\\",
+      "BasePath": "_content/Pustok_Temp",
+      "RelativePath": "Upload/BookImage/71676911-fa11-4def-8d5a-bc4982f721b33145765.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\BookImage\\71676911-fa11-4def-8d5a-bc4982f721b33145765.png"
+    },
+    {
+      "Identity": "C:\\Users\\II novbe\\Desktop\\FStemp\\Pustok_Temp\\wwwroot\\Upload\\BookImage\\731f54c4-cacb-4e57-a16c-5ff72c1e2b4e3145765.png",
+      "SourceId": "Pustok_Temp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\FStemp\\Pustok_Temp\\wwwroot\\",
+      "BasePath": "_content/Pustok_Temp",
+      "RelativePath": "Upload/BookImage/731f54c4-cacb-4e57-a16c-5ff72c1e2b4e3145765.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\BookImage\\731f54c4-cacb-4e57-a16c-5ff72c1e2b4e3145765.png"
     },
     {
       "Identity": "C:\\Users\\II novbe\\Desktop\\FStemp\\Pustok_Temp\\wwwroot\\Upload\\BookImage\\7947f86d-a557-43b1-8cc6-c0f480ee35ba3145765.png",
@@ -14688,12 +14756,12 @@
       "OriginalItemSpec": "wwwroot\\Upload\\BookImage\\7947f86d-a557-43b1-8cc6-c0f480ee35ba3145765.png"
     },
     {
-      "Identity": "C:\\Users\\II novbe\\Desktop\\FStemp\\Pustok_Temp\\wwwroot\\Upload\\BookImage\\b5a4eeaf-f371-4246-b7fa-42f26f7b2894thumb-1920-1024992.jpg",
+      "Identity": "C:\\Users\\II novbe\\Desktop\\FStemp\\Pustok_Temp\\wwwroot\\Upload\\BookImage\\7f29174e-07c5-4017-9be5-d9af404c7860thumb-1920-1024992.jpg",
       "SourceId": "Pustok_Temp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\II novbe\\Desktop\\FStemp\\Pustok_Temp\\wwwroot\\",
       "BasePath": "_content/Pustok_Temp",
-      "RelativePath": "Upload/BookImage/b5a4eeaf-f371-4246-b7fa-42f26f7b2894thumb-1920-1024992.jpg",
+      "RelativePath": "Upload/BookImage/7f29174e-07c5-4017-9be5-d9af404c7860thumb-1920-1024992.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -14702,7 +14770,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Upload\\BookImage\\b5a4eeaf-f371-4246-b7fa-42f26f7b2894thumb-1920-1024992.jpg"
+      "OriginalItemSpec": "wwwroot\\Upload\\BookImage\\7f29174e-07c5-4017-9be5-d9af404c7860thumb-1920-1024992.jpg"
     },
     {
       "Identity": "C:\\Users\\II novbe\\Desktop\\FStemp\\Pustok_Temp\\wwwroot\\Upload\\BookImage\\e26fadc9-7f2b-401d-bfc1-5b9cfdae0a4athumb-1920-1024992.jpg",

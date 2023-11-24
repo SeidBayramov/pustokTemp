@@ -20,9 +20,12 @@ namespace Pustok_Temp.Areas.Manage.Controllers
             _context = context;
             _environment = environment;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            List<Book> books = _context.books.Include(p => p.Authors).ToList();
+            List<Book> books = await _context.books
+                .Include(p => p.Authors)
+                .Include(p=>p.Bookimages).
+                ToListAsync();
 
             return View(books);
          
@@ -60,27 +63,28 @@ namespace Pustok_Temp.Areas.Manage.Controllers
 
             return RedirectToAction("Index");
         }
-        public IActionResult Update(int id)
+
+
+        public   async Task<IActionResult> Delete(int id)
         {
 
-            Book book = _context.books.Find(id);
-            return View(book);
-        }
-        public IActionResult Delete(int id)
-        {
-
-            Book book = _context.books.Find(id);
+            Book book =  await _context.books.FindAsync(id);
 
             if (book != null)
             {
                 _context.books.Remove(book);
-                _context.SaveChanges();
+                _context.SaveChangesAsync();
 
             }
 
             return RedirectToAction("Index");
         }
+        public async Task<IActionResult> Update(int id)
+        {
 
+            Book book = await _context.books.FindAsync(id);
+            return View(book);
+        }
 
         [HttpPost]
         public IActionResult Update(Book newSlider)
@@ -110,7 +114,6 @@ namespace Pustok_Temp.Areas.Manage.Controllers
             {
                 return View();
             }
-
 
 
             oldSlider.Title = newSlider.Title;

@@ -17,5 +17,8 @@ namespace Pustok_Temp.DAL
         public DbSet<Categories> categories { get; set; }
         public DbSet<Slider> sliders { get; set; }
 
+        public DbSet<ParentCategory> parentcats { get; set; }
+
+
     }
 }
